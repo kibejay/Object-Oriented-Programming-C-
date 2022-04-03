@@ -1,5 +1,31 @@
-Using switch statement, write a C++ program that uses the below code as cases and displays the output shown below 						(5 marks)
-Country Code	Output
-254	This code belongs to Kenya
-255	This code belongs to Tanzania
-256	This code belongs to Uganda
+// Program to build a simple calculator using switch Statement
+#include <iostream>
+using namespace std;
+
+int main() {
+	int code, i;
+	cout << "Enter the country code: " << endl;
+	for(i=254; i<255; ++i) {
+ cin >> code;
+    }
+
+	
+    switch (code) {
+        case 254:
+            cout <<"This code belongs to Kenya";
+            break;
+        case 255:
+            cout <<"This code belongs to Tanzania";
+            break;
+        case 256:
+            cout <<"This code belongs to Uganda";
+            break;
+            default:
+            // operator is doesn't match any case constant (+, -, *, /)
+            cout << "Error! The code is not correct";
+            break;
+     
+    }
+
+    return 0;
+}
