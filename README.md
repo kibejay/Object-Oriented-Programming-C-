@@ -6,6 +6,7 @@ C=  (5(F-32))/9
 Where C is the centigrade and F is the Fahrenheit
 
 **q2**
+
 Using switch statement, write a C++ program that uses the below code as cases and displays the output shown below 						(5 marks)
 Country Code	Output
 254	This code belongs to Kenya
